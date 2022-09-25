@@ -8,5 +8,5 @@
 
 下面放一下常用(實用)的東東
 
-create react native project with Typescript ->  `npx react-native init MyApp --template react-native-template-typescript`
+create react native project with Typescript ->  `npx react-native init <<MyApp>> --template react-native-template-typescript`
 
