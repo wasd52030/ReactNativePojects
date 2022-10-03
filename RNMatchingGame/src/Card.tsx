@@ -8,7 +8,7 @@ import {
 
 interface Props {
     title: string,
-    isShow: Boolean,
+    isShow: boolean,
     fontSize: number,
     onPress: () => void
 }
@@ -18,8 +18,11 @@ const Card = (p: Props) => {
     const cover = ""
 
     return (
-        <TouchableOpacity style={styles.button} onPress={p.onPress}>
-            <Text style={{ fontSize: p.fontSize || 35 }}>
+        <TouchableOpacity
+            style={styles.card} onPress={p.onPress}
+            disabled={p.isShow}
+        >
+            <Text style={{ fontSize: p.fontSize || 35, color: "#FFFFFF" }}>
                 {(p.isShow) ? p.title : cover}
             </Text>
         </TouchableOpacity>
@@ -27,8 +30,8 @@ const Card = (p: Props) => {
 }
 
 const styles = StyleSheet.create({
-    button: {
-        backgroundColor: "#ccc",
+    card: {
+        backgroundColor: "#CCCCCC",
         borderRadius: 8,
         width: 50,
         height: 50,

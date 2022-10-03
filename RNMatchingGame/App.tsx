@@ -1,13 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * Generated with the TypeScript template
- * https://github.com/react-native-community/react-native-template-typescript
- *
- * @format
- */
-
 import React, { useEffect, useRef, useState } from "react"
 import {
   StatusBar,
@@ -30,11 +20,6 @@ const App = () => {
 
   const onCardPress = (index: number) => {
     const o = [...isOpen]
-
-    if (isOpen[index]) {
-      return
-    }
-
     o[index] = true
 
     if (firstIndex === null && secondIndex === null) {
@@ -130,7 +115,7 @@ const App = () => {
           </View>
         </View>
         <View style={styles.footer}>
-          <Text>
+          <Text style={{ color: "#000" }}>
             {(isEnded) ? `WIN! You have completed in ${steps} time(s).` : `You have tried ${steps} time(s).`}
           </Text>
           {
@@ -156,22 +141,23 @@ const styles = StyleSheet.create({
   },
   header: {
     flex: 1,
-    backgroundColor: "#eee",
+    backgroundColor: "#EEEEEE",
     justifyContent: "center",
     alignItems: "center"
   },
   heading: {
     fontSize: 24,
+    color: "#000000",
     fontWeight: "bold",
     textAlign: "center"
   },
   main: {
     flex: 3,
-    backgroundColor: "#fff"
+    backgroundColor: "#FFFFFF"
   },
   footer: {
     flex: 1,
-    backgroundColor: "#eee",
+    backgroundColor: "#EEEEEE",
     justifyContent: "center",
     alignItems: "center"
   },
@@ -184,13 +170,14 @@ const styles = StyleSheet.create({
     alignContent: "center"
   },
   resetBtn: {
-    borderColor: "#eee",
+    backgroundColor: "#7EB6F1",
     padding: 8,
     borderRadius: 8,
     marginTop: 20
   },
   resetBtnText: {
-    fontSize: 10
+    fontSize: 10,
+    color: "#FFFFFF",
   }
 })
 
