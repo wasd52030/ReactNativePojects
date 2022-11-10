@@ -25,7 +25,7 @@ const App = () => {
         backgroundColor={backgroundStyle.backgroundColor}
       />
       <View style={styles.container}>
-        <Hw1 />
+        <Hw1 placeholder='在這裡顯示文字' />
       </View>
     </SafeAreaView>
   );
