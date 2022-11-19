@@ -13,3 +13,7 @@ create react native project with Typescript ->  `npx react-native init <<MyApp>>
 create new expo porject -> `expo init <<Myapp>>` || `npx create-expo-app <<my-app>>`
 
 custon android release apk name -> https://www.geeksforgeeks.org/how-to-change-the-default-generated-apk-name-in-android-studio/
+
+eslint-[Parsing Error The keyword import is reserve] -> https://stackoverflow.com/questions/36002226/parsing-error-the-keyword-import-is-reserved-sublimelinter-contrib-eslint
+
+react-native link after 0.69 -> https://stackoverflow.com/questions/72872203/unrecognized-command-link-when-linking-fonts-in-react-native
