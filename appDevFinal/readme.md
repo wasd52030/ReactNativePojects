@@ -65,9 +65,10 @@
 
 - view structure $\rightarrow$ https://ithelp.ithome.com.tw/users/20121828/ironman/3042
 - firebase $\rightarrow$ https://ithelp.ithome.com.tw/users/20119550/ironman/2221 (只參考firebase的部分) 
-- GooglePlacesAutocomplete https://www.youtube.com/watch?v=Wq3dO05jv6o
+- GooglePlacesAutocomplete $\rightarrow$ https://www.youtube.com/watch?v=Wq3dO05jv6o
 - react-native-android-location-enabler $\rightarrow$ https://github.com/Richou/react-native-android-location-enabler
 - release apk $\rightarrow$ https://ithelp.ithome.com.tw/articles/10188858
 - GooglePlacesAutocomplete custom clear button $\rightarrow$ https://github.com/FaridSafi/react-native-google-places-autocomplete/issues/581
 - react-native-maps-directions $\rightarrow$https://github.com/bramus/react-native-maps-directions
 - open maps/google maps in react native $\rightarrow$ https://stackoverflow.com/questions/43214062/open-maps-google-maps-in-react-native
+
