@@ -4,6 +4,10 @@
 
 對了，不得不提，學長給的code幾乎不能用，與它奮戰一段時間後就決定自幹了==
 
+
+
+## 開發日程
+
 - 20221119
 
     - Done
@@ -61,7 +65,7 @@
 
 
 
-參考網頁與影片
+## 參考資料
 
 - view structure $\rightarrow$ https://ithelp.ithome.com.tw/users/20121828/ironman/3042
 - firebase $\rightarrow$ https://ithelp.ithome.com.tw/users/20119550/ironman/2221 (只參考firebase的部分) 
